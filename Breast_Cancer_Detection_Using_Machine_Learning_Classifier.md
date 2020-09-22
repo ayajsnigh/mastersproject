@@ -1,6 +1,4 @@
-# Breast Cancer Detection Using Machine Learning 
-
-# Import essential libraries 
+ # Import essential libraries 
 
 
 ```python
