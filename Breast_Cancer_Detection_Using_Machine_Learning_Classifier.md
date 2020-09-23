@@ -3,7 +3,7 @@
 
 ```python
 # import libraries
-import pandas as pd # for data manupulation or analysis
+import pandas as pd # for data manipulation or analysis
 import numpy as np # for numeric calculation
 import matplotlib.pyplot as plt # for data visualization
 import seaborn as sns # for data visualization
