@@ -2838,34 +2838,6 @@ print("\nCross validation mean accuracy of XGBoost model = ", cross_validation.m
      1.         1.         0.97777778 0.88888889]
     
     Cross validation mean accuracy of XGBoost model =  0.9624617124062083
+  
     
-
-# Save XGBoost Classifier model using Pickel
-
-
-```python
-## Pickle
-import pickle
-
-# save model
-pickle.dump(xgb_classifier_pt, open('breast_cancer_detector.pickle', 'wb'))
-
-# load model
-breast_cancer_detector_model = pickle.load(open('breast_cancer_detector.pickle', 'rb'))
-
-# predict the output
-y_pred = breast_cancer_detector_model.predict(X_test)
-
-# confusion matrix
-print('Confusion matrix of XGBoost model: \n',confusion_matrix(y_test, y_pred),'\n')
-
-# show the accuracy
-print('Accuracy of XGBoost model = ',accuracy_score(y_test, y_pred))
-```
-
-    Confusion matrix of XGBoost model: 
-     [[46  2]
-     [ 0 66]] 
-    
-    Accuracy of XGBoost model =  0.9824561403508771
     
