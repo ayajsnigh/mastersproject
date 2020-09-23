@@ -83,14 +83,6 @@ cancer_dataset
 
 
 
-```python
-type(cancer_dataset)
-```
-
-
-
-
-    sklearn.utils.Bunch
 
 
 
